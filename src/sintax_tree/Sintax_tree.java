@@ -15,5 +15,8 @@ public class Sintax_tree {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Crear nodos
+        
     }
+
 }

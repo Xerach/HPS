@@ -4,7 +4,6 @@
  */
 package operations;
 
-import interfaces.Node;
 import operator.Binary;
 
 /**
@@ -13,13 +12,9 @@ import operator.Binary;
  */
 public class Plus extends Binary{
 
-    public Plus(Node leftelement, Node rightelement) {
-        super(leftelement, rightelement);
-    }
-
     @Override
     public double evaluate() {
-        return getleftelement()+getrightelement();
+        return this.getleftelement()+this.getrightelement();
     }
     
 }

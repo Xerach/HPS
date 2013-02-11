@@ -13,7 +13,7 @@ import interfaces.Node;
 public class Numbers extends Node{
     private double num;
     
-    public Numbers(double number){
+    void numbers(double number){
         num = number;
     }
     

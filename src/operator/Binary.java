@@ -11,20 +11,23 @@ import interfaces.Node;
  * @author Xerach
  */
 public abstract class Binary extends Node{
-    private final Node leftelement;
-    private final Node rightelement;
-
-    public Binary(Node leftelement, Node rightelement) {
-        this.leftelement = leftelement;
-        this.rightelement = rightelement;
-    }
+    private double leftelement;
+    private double rightelement;
     
     public double getleftelement(){
-        return leftelement.evaluate();
+        return leftelement;
     }
     
     public double getrightelement(){
-        return rightelement.evaluate();
+        return rightelement;
+    }
+    
+    public void setleftelement(double number){
+        leftelement = number;
+    }
+    
+    public void setrightelement(double number){
+        rightelement = number;
     }
     
 }
